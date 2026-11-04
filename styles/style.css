@@ -96,7 +96,7 @@ header {
 .nav-menu.active {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed; /* ← absolute から fixed に変更 */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -276,7 +276,7 @@ h2 {
   .nav-menu.active {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed; /* ← absolute から fixed に変更 */
     top: 60px;
     right: 0;
     width: 60%;
