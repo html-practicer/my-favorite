@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>好きなもの紹介</title>
+    <link href="styles/style.css" rel="stylesheet" />  <!--linkタグなどで指定するCSSファイルの置き場所を指定。今回は現在開いているhtmlファイルのstyle.cssを読み込む-->
+    <script src="scripts/script.js" defer></script> 
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />  <!--フォント指定。relで読み込むファイルがCSSなのを指定-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+   <!-- <p> &lt;p&gt;で段落を指定 </p> 内改行は<br> -->
+   <!-- Ctrol+/でコメント行（非表示） -->
+   <!-- <img src="images/" alt="" class=""/>　<img src="ソース。パスをコピペ。imagesフォルダー内に入れたらimages/画像の名前を貼る。" alt="画像のALTを書く" /> -->
+   <!-- リンクは安全なサイト先に限定し、<a href="リンク" target="_blank" rel="noopener">リンク名</a>　　target:どの窓で開くか，rel=noopener:元の窓に干渉しないようにする-->
+
+  <header class="site-header container">
+    <div class="kaisei-opti-regular" style="font-size: 30px;">好きなもの紹介</div>
+  <!-- ヘッダーエリア（背景色 #f7f4ec を指定する場所） -->
+    <div class="hamburger-menu">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="nav-menu">
+      <a href="index.html">メインページ</a>
+      <a href="index2.html">𝕏アカウント <br>お問い合わせ</a>
+      <a href="#">Menu 3</a>
+    </nav>
+  </header>
+
+<!-- ↓ ヘッダー以下の本文全体を <main> で囲む -->
+<main class="main-content">
+   <h1 style="margin-top: 0;">好きなキャラクター</h1>
+    <div class="parent" style="align-items: center;">  
+     <span style="flex: 0 0 auto;"><img src="images/mi-sama.PNG" alt="ひげまんじゅう　みーさま" class="mi-sama-img"/></span>
+     <span><h2>ひげまんじゅう　みーさま　/株式会社アミューズ</h2>
+       <p> ぬいぐるみ会社である株式会社アミューズのキャラクターシリーズ『ひげまんじゅう』のキャラクター。
+        <br>修学旅行先で北海道に行った際に泊まったホテルの売店でみーさまのぬいぐるみを購入。<br>その後YouTubeチャンネルを見つけ、そこに投稿されているアニメを見て好きになった。
+       </p>
+     </span>
+    </div>
+    <div class="parent button_solid014"  style="align-items: center;">
+     <span><a href="https://www.amunet.co.jp/character/higemanjyu.html" target="_blank"  rel="noopener">公式紹介</a></span>
+     <span><a href="http://www.youtube.com/@amuse_japan" target="_blank"  rel="noopener">公式YouTubeチャンネル</a></span>
+     <span><a href="https://amufun.co.jp/view/category/higemanjyu" target="_blank" rel="noopener">ひげまんじゅう公式オンラインショップ</a></span>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <h2>フォッコ系　/任天堂・クリーチャーズ・ゲームフリーク</h2>
+    <!-- <div class="parent"> -->
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="card active">
+          <img src="images/fokko.PNG" alt="ポケモン　フォッコ" class="fokko-img"/>
+        </div>
+        <div class="card">
+          <img src="images/te-runa-.PNG" alt="ポケモン　テールナー" class="fokko-img"/>
+        </div>
+        <div class="card">
+          <img src="images/mafokusi-.PNG" alt="ポケモン　マフォクシー" class="fokko-img"/>
+        </div>
+      </div>
+    </div>
+
+    <p>3DSゲームソフト『ポケットモンスターX・Y』で最初に選べるポケモン３体のうちの１体と、その進化系。
+       <br>フォッコが進化してテールナー、さらに進化してマフォクシーになる。
+       <br>初めて買ってもらったゲームで選んだ最初のポケモンだったので、愛着がある。TVアニメではヒロインの相棒ポケモンだった。
+    </p>
+    <br><div class="parent button_solid014"  style="align-items: center;">
+      <span><a href="https://zukan.pokemon.co.jp/detail/0653" target="_blank"  rel="noopener">フォッコ</a></span>
+      <span><a href="https://zukan.pokemon.co.jp/detail/0654" target="_blank"  rel="noopener">テールナー</a></span>
+      <span><a href="https://zukan.pokemon.co.jp/detail/0655" target="_blank"  rel="noopener">マフォクシー</a></span>
+    </div>
+  <p>&nbsp;</p>
+
+  <h1>全巻持ってる漫画</h1>
+    <div class="parent">
+     <span style="flex: 1; min-width: 0; display: flex;flex-direction: column; align-items: center; text-align: center;">
+        <h2 class="button_line001"><a href="https://youngjump.jp/goldenkamuy/" target="_blank" rel="noopener" style="text-decoration: none">ゴールデンカムイ</a></h2>
+        <p><img src="https://cdn-ak-img.shonenjumpplus.com/public/volume-thumbnail/4856001361007488378-25482ce52c3b95815e2008868841db6c?1788367369" alt="ゴールデンカムイ31巻の画像" class="card-img" /></p>
+        <p><h3>作：野田サトル　出版社：集英社</h3>
+           <br>明治末期の北海道を舞台とした金塊をめぐるバトル漫画。サバイバル要素・ギャグ要素もあり、アイヌの文化やグルメなどの民俗文化も知れるぞ！
+        </p>
+     </span>
+     <span style="flex: 1; min-width: 0; display: flex;flex-direction: column; align-items: center; text-align: center;">
+        <h2 class="button_line001"><a href="https://www.shogakukan.co.jp/pr/ginsaji/" target="_blank" rel="noopener" style="text-decoration: none">銀の匙 Silver Spoon</a></h2>
+        <p><img src="https://shogakukan-comic.jp/book-images/w400/books/9784091231802.jpg" alt="銀の匙１巻の画像" class="card-img" /></p>
+        <p><h3>作：荒川弘　出版社：小学館</h3>
+           <br>北海道の農業高等学校を舞台とした学園漫画。笑い・青春・成長が温かく描かれており、農業・酪農のことを面白く知れるぞ！
+        </p>
+     </span>
+    </div>
+
+  <h1>好きな音楽</h1>
+  <!-- 音楽カルーセルここから -->
+  <div class="music-carousel-container" id="musicCarousel">
+    <div class="music-carousel-wrapper">
+      <!-- 左矢印ボタン -->
+    <button class="nav-btn prev-btn" id="prevBtn">&#10094;</button>
+
+    <!-- スライド表示エリア -->
+    <div class="music-carousel-track-container">
+      <div class="music-carousel-track" id="musicTrack">
+
+  <!-- Slide 1: 白 -->
+  <div class="music-slide" id="slide-1" data-bg="#f4f4f6" data-text="#222222">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+    <h2>Acacia　/BUNP &nbsp; OF &nbsp; CHICKEN</h2>
+      <div class="parent">
+        <span>
+          <div class="button021"> <a href="https://youtu.be/BoZ0Zwab6Oc?si=538fmSdU8H9GXYpU" target="_blank" rel="noopener">公式MV</a> </div>
+          <iframe src="https://www.youtube-nocookie.com/embed/BoZ0Zwab6Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+          <p>※子供向けの動画のため埋め込み再生ができません。YouTube上でご覧ください。</p>
+        </span>
+        <span>
+          <div class="button021"> <a href="https://youtu.be/4dnT-kKIO6Y?si=XlDNwIIsUuZjlnGp" target="_blank" rel="noopener">公式Music</a> </div>
+          <iframe src="https://www.youtube-nocookie.com/embed/4dnT-kKIO6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2: 赤 -->
+  <div class="music-slide" id="slide-2" data-bg="#ff7b7b" data-text="#ffffff">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+      <div class="parent" style="align-items: center;">
+        <span><iframe src="https://www.youtube-nocookie.com/embed/VXA0PEjkIGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </span>
+        <span class="center-span" style="align-items: flex-start;">
+          <h2>ヒロインRE♡クエスト　/삼사</h2>
+          <div class="button021"> <a href="https://www.youtube.com/watch?v=VXA0PEjkIGU" target="_blank" rel="noopener">公式MV</a> </div>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3: 橙 -->
+  <div class="music-slide" id="slide-3" data-bg="#ffaa5b" data-text="#ffffff">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+     <div class="parent" style="align-items: center;">
+       <span><iframe src="https://www.youtube-nocookie.com/embed/sIY2NtZ3wO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </span>
+       <span class="center-span" style="align-items: flex-start;">
+         <h2>点.mp4　/安見すや</h2>
+         <div class="button021"> <a href="https://youtu.be/sIY2NtZ3wO8?si=icoUVztstU9YjTyj" target="_blank" rel="noopener">公式MV</a> </div>
+       </span>
+     </div>
+    </div>
+  </div>
+
+  <!-- Slide 4: 黄 -->
+  <div class="music-slide" id="slide-4" data-bg="#ffd166" data-text="#333333">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+     <div class="parent" style="align-items: center;">
+       <span><iframe src="https://www.youtube-nocookie.com/embed/pRjWRV1Bhfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </span>
+       <span class="center-span" style="align-items: flex-start;">
+         <h2>バカ通信　/isonosuke</h2>
+         <div class="button021"> <a href="https://youtu.be/pRjWRV1Bhfs?si=reKB7YCjI0nmz7hk" target="_blank" rel="noopener">公式MV</a> </div>
+       </span>
+     </div>
+    </div>
+  </div>
+    
+  <!-- Slide 5: 緑 -->
+  <div class="music-slide" id="slide-5" data-bg="#a0d34c" data-text="#ffffff">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+     <div class="parent" style="align-items: center;">
+       <span><iframe src="https://www.youtube-nocookie.com/embed/KAcsGuer5Ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </span>
+       <span class="center-span" style="align-items: flex-start;">
+         <h2>また君に番号を聞けなかった　/ゴールデンボンバー</h2>
+         <div class="button021"> <a href="https://youtu.be/KAcsGuer5Ho?si=L76W4McKpQ_Cqf4S" target="_blank" rel="noopener">公式MV</a> </div>
+       </span>
+     </div>
+    </div>
+  </div>
+
+  <!-- Slide 6: 水色 -->
+  <div class="music-slide" id="slide-6" data-bg="#4cc9f0" data-text="#ffffff">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+    <h2>或る街の群青　/ASIAN &nbsp; KUNG-FU &nbsp; GENERATION</h2>
+     <div class="parent" style="align-items: center;">
+       <span>
+         <div class="button021"> <a href="https://youtu.be/e1sZVdw4RcI?si=5VTco2BwGZL8FmfZ" target="_blank" rel="noopener">公式MV</a> </div>
+         <iframe src="https://www.youtube-nocookie.com/embed/e1sZVdw4RcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </span>
+       <span>
+         <div class="button021"> <a href="https://youtu.be/q85146M3Aas?si=8rFdko-V5sYqIwKF" target="_blank" rel="noopener">公式Music</a> </div>
+         <iframe src="https://www.youtube-nocookie.com/embed/q85146M3Aas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </span>
+     </div>
+    </div>
+  </div>
+
+  <!-- Slide 7: 青 -->
+  <div class="music-slide" id="slide-7" data-bg="#1d9dfe" data-text="#ffffff">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+     <div class="parent" style="align-items: center;">
+       <span><iframe src="https://www.youtube-nocookie.com/embed/Kl0ieRnAHnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </span>
+       <span class="center-span" style="align-items: flex-start;">
+         <h2>さんさーら！　/ARuFa</h2>
+         <div class="button021"> <a href="https://youtu.be/Kl0ieRnAHnE?si=Td7xedcnN9JrqO2U" target="_blank" rel="noopener">公式MV</a> </div>
+       </span>
+     </div>
+    </div>
+  </div>
+
+  <!-- Slide 8: 紫 -->
+  <div class="music-slide" id="slide-8" data-bg="#7209b7" data-text="#ffffff">
+    <!-- ↓ 内側の白枠カードを追加 -->
+   <div class="music-slide-content">
+     <div class="parent" style="align-items: center;">
+       <span>
+         <iframe src="https://www.youtube-nocookie.com/embed/gdjR2lvIfJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <p>※権利上の制限により埋め込み再生ができません。YouTube上でご覧ください。</p>
+       </span>
+       <span class="center-span" style="align-items: flex-start;">
+         <h2>Rewrite &nbsp; The &nbsp; Stars　/Zac &nbsp; Efron, &nbsp; Zendaya</h2>
+         <div class="button021"> <a href="https://youtu.be/gdjR2lvIfJ4?si=ZMAa5APfhwAMKaAE" target="_blank" rel="noopener">公式MV</a> </div>
+       </span>
+     </div>
+    </div>
+  </div>
+
+  </div><!-- /#musicTrack -->
+  </div><!-- /.music-carousel-track-container -->
+
+  <!-- 右矢印ボタン -->
+      <button class="nav-btn next-btn" id="nextBtn">&#10095;</button>
+    </div><!-- /.music-carousel-wrapper -->
+
+  </div><!-- /#musicCarousel -->
+  
+  <!-- インジケーター（白 + 虹の7色） -->
+    <div class="dots-container" id="dotsContainer">
+      <div class="dot active" data-theme="white"></div>
+      <div class="dot" data-theme="red"></div>
+      <div class="dot" data-theme="orange"></div>
+      <div class="dot" data-theme="yellow"></div>
+      <div class="dot" data-theme="green"></div>
+      <div class="dot" data-theme="cyan"></div>
+      <div class="dot" data-theme="blue"></div>
+      <div class="dot" data-theme="purple"></div>
+    </div>
+
+</main>
+<!-- ↑ ここまで -->
+
+
+
+ </body>
+
+</html>
